@@ -4,6 +4,12 @@ A personal portfolio built with **React** (Create React App) and **TailwindCSS**
 
 ---
 
+## 🚀 Live Demo
+
+Explore my portfolio here: [camilaamiotti.netlify.app](https://camilaamiotti.netlify.app/)
+
+---
+
 ## 🛠️ Tech Stack
 
 - React (Create React App)
