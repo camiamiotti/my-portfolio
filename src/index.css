@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Poppins:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-body;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-title;
+  }
+}
+
+@layer components {
+  .heading-main {
+    @apply text-4xl font-title mb-12 text-center;
+  }
+
+  .heading-company {
+    @apply text-xl font-bold text-gray-900 font-title;
+  }
+
+  .role-text {
+    @apply text-base text-gray-700 italic mt-1;
+  }
+
+  .date-text {
+    @apply text-xs text-gray-500;
+  }
+
+  .section-container {
+    @apply max-w-4xl mx-auto;
+  }
+
+  .list-bullets {
+    @apply mt-2 list-disc list-inside text-gray-600 space-y-1;
+  }
+}
